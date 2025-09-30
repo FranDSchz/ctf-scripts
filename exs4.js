@@ -1,5 +1,5 @@
 // Usamos la URL exacta de la imagen que ya está en el servidor.
-const imageUrl = '/static/uploads/4537364fd67d9fc9.jpg';
+const imageUrl = 'https://i.imgur.com/ALcFLac.png';
 
 async function changeProfilePic() {
   try {
